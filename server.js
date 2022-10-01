@@ -3,7 +3,7 @@ const http = require("http")
 
 const server = http.createServer((req,res) => {
     console.log("new connection")
-    res.end("We can use GCP its work, its really work")
+    res.end(" its work, its really work")
 });
 
 
